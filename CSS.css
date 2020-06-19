@@ -1,0 +1,204 @@
+body {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F5F5F5;
+	font-family: futura;
+
+}
+
+#page {
+    position: relative;
+    margin-top: 50px;
+    width: auto;
+    margin: auto;
+    padding: 50px;
+}
+
+#imageBanniere
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 100%;
+}
+
+#menu1 {
+    padding: 10px;
+}
+
+#menu2 {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    border: none;
+		font-size: 170%;
+}
+
+#menu2 a
+{
+    text-decoration: none;
+		color: black;
+}
+
+#menu2 a:hover
+{
+ 	color: #F9429E;
+}
+
+#menu2 ul {
+    list-style-type:none;
+    display: block;
+    height: 10px;
+    list-style-type: none;
+    margin: 12px 50px;
+}
+
+#menu2 li {
+    display: block;
+    float: left;
+    margin-left: 5px;
+}
+
+nav
+{
+    display: inline-block;
+    text-align: right;
+}
+
+nav a
+{
+    padding: 10px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+.imagePlat
+{
+	width: 300px;
+	height: 300px;
+}
+
+.descriptionPlat
+{
+	width: 300px;
+	font-style: italic;
+}
+
+.feedPlats
+{
+	display: inline-block;
+	float: left;
+	background-color: white;
+	margin: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	-webkit- transition: 0.7s;
+	transition: 0.7s;
+}
+
+.feedPlats:hover
+{
+	box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.3)
+}
+
+.pageImagePlat
+{
+	width: 500px;
+}
+
+.nomDuPlat
+{
+	font-weight: bold;
+}
+
+.feedPlatsPrincipal
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: center;
+	display: inline-block;
+	width: 100%;
+}
+
+#boutonRecherche
+{
+	height: 100px;
+	width: 300px;
+}
+
+#barreRecherche {
+    width: 545px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    font-size: 68px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 1s ease-in-out;
+		font-family: futura;
+}
+
+input[type=text]:focus {
+    width: 250px;
+}
+
+.pageMenu
+{
+	text-decoration: underline;
+}
+
+.acheterBouton
+{
+	position: relative;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+	transition-duration: 0.7s;
+}
+
+.vendeurBouton
+{
+	position: relative;
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.7s;
+}
+
+.acheterBouton:hover
+{
+	background-color: red;
+	cursor: default;
+}
+
+.vendeurBouton:hover
+{
+	background-color: red;
+	cursor: default;
+}
